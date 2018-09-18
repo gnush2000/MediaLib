@@ -16,6 +16,8 @@ public class MediaLib
       System.out.println(song1.getTitle());
       song1.setRating(3);
       System.out.println(song1.getRating());
+      song1.setPrice(1.29);
+      System.out.println("$" + song1.getPrice());
       Movie movie1 = new Movie();
       System.out.println(movie1);
       movie1.setTitle("Titanic");
@@ -28,6 +30,7 @@ public class MediaLib
       System.out.println(book1.getTitle());
       book1.setRating(6);
       System.out.println(book1.getRating());
+      
       
    }
   
