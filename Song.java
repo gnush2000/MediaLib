@@ -19,12 +19,19 @@ public class Song
     {
         // initialise instance variables
         rating = 0;
+        title = "";
     }
 
-    //lkjhlkjhk
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return rating + y;
+  public String getTitle() {
+      return title;
+    }
+  public void setTitle(String t) {
+      title = t;
+    }
+  public int getRating() {
+      return rating;
+    }
+  public void setRating(int r) {
+      rating = r;
     }
 }
