@@ -9,7 +9,7 @@ public class Song
 {
     // instance variables - replace the example below with your own
     private int rating;
-    
+    private double price;
     private String title;
     
     /**
@@ -20,6 +20,7 @@ public class Song
         // initialise instance variables
         rating = 0;
         title = "";
+        price = 0.0;
     }
 
   public String getTitle() {
@@ -33,5 +34,11 @@ public class Song
     }
   public void setRating(int r) {
       rating = r;
+    }
+  public double getPrice() {
+      return price;
+    }
+  public void setPrice(double p) {
+      price = p;
     }
 }
