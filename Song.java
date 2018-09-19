@@ -11,6 +11,7 @@ public class Song
     private int rating;
     private double price;
     private String title;
+    private boolean favorite;
     
     /**
      * Constructor for objects of class Song
@@ -21,6 +22,7 @@ public class Song
         rating = 0;
         title = "";
         price = 0.0;
+        favorite = false;
     }
 
   public String getTitle() {
@@ -40,5 +42,8 @@ public class Song
     }
   public void setPrice(double p) {
       price = p;
+    }
+  public void addToFavorites() {
+      favorite = true;
     }
 }
