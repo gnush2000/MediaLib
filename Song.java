@@ -46,4 +46,9 @@ public class Song
   public void addToFavorites() {
       favorite = true;
     }
+  public Song(String title, double price, int rating) {
+      this.title = title;
+      this.price = price;
+      this.rating = rating;
+    }
 }
