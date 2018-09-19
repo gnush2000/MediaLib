@@ -38,8 +38,12 @@ public class MediaLib
       Song song6 = new Song("Build Me Up Buttercup", 0.99, 9);
       Song song7 = new Song("Silver Lining", 0.99, 8);
       
-      System.out.println(song2);
-       
+      System.out.println(song2.getSong());
+      System.out.println(song3.getSong());
+      System.out.println(song4.getSong());
+      System.out.println(song5.getSong());
+      System.out.println(song6.getSong());
+      System.out.println(song7.getSong());
       
    }
   

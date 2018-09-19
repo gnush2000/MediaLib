@@ -51,4 +51,7 @@ public class Song
       this.price = price;
       this.rating = rating;
     }
+  public String getSong() {
+     return "Title: " + title + ", Price: " + price + ", Rating: " + rating;
+    }
 }
