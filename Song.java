@@ -12,7 +12,8 @@ public class Song
     private double price;
     private String title;
     private boolean favorite;
-    
+    private double totalCost;
+    private int numSongs;
     /**
      * Constructor for objects of class Song
      */
@@ -23,6 +24,8 @@ public class Song
         title = "";
         price = 0.0;
         favorite = false;
+        totalCost = 0.00;
+        numSongs = 0;
     }
 
   public String getTitle() {
@@ -50,6 +53,7 @@ public class Song
       this.title = title;
       this.price = price;
       this.rating = rating;
+      this.totalCost = totalCost + price;
     }
   public String getSong() {
      return "Title: " + title + ", Price: " + price + ", Rating: " + rating;
