@@ -12,7 +12,7 @@ public class MediaLib
       System.out.println ("Welcome to your Media Library");
       Song song1 = new Song();
       System.out.println(song1);
-      song1.setTitle("Johnny B. Goode");
+      song1.setTitle("Raise Your Glass");
       System.out.println(song1.getTitle());
       song1.setRating(3);
       System.out.println(song1.getRating());
@@ -31,6 +31,15 @@ public class MediaLib
       book1.setRating(6);
       System.out.println(book1.getRating());
       
+      Song song2 = new Song("Cocaine Jesus", 0.99, 8);
+      Song song3 = new Song("Moon", 1.29, 1);
+      Song song4 = new Song("Big Green Tractor", 0.99, 2);
+      Song song5 = new Song("Country Road", 0.99, 9);
+      Song song6 = new Song("Build Me Up Buttercup", 0.99, 9);
+      Song song7 = new Song("Silver Lining", 0.99, 8);
+      
+      System.out.println(song2);
+       
       
    }
   
