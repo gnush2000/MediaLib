@@ -53,8 +53,10 @@ public class Song
       this.title = title;
       this.price = price;
       this.rating = rating;
-      this.totalCost = totalCost + price;
+      totalCost = totalCost + price;
+     
     }
+
   public String getSong() {
      return "Title: " + title + ", Price: " + price + ", Rating: " + rating;
     }
