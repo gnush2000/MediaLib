@@ -52,13 +52,10 @@ public class MediaLib
       System.out.println("Total cost: " + MediaLib.totalCost);
       System.out.println("Total songs: " + MediaLib.numSongs);
       System.out.println("Total Ratings: " + MediaLib.totalRatings);
-<<<<<<< HEAD
-=======
       
       System.out.println("Average Cost: " + totalCost / numSongs);
       System.out.println("Average Rating: " + totalRatings / numSongs);
    
->>>>>>> 20c8d1cdb8f91d55beb9541fd3a8871c4d7401ec
    }
    
 }
