@@ -2,7 +2,6 @@
 dependency1.from=MediaLib
 dependency1.to=Song
 dependency1.type=UsesDependency
-<<<<<<< HEAD
 dependency2.from=MediaLib
 dependency2.to=Movie
 dependency2.type=UsesDependency
@@ -11,31 +10,19 @@ dependency3.to=Book
 dependency3.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
-objectbench.height=154
-=======
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=357
-editor.fx.0.y=104
-objectbench.height=155
->>>>>>> 1fe209b54de7020889192fdc672b737ff85e6970
-objectbench.width=760
+editor.fx.0.x=225
+editor.fx.0.y=29
+objectbench.height=168
+objectbench.width=776
 package.divider.horizontal=0.6
-package.divider.vertical=0.678
-package.editor.height=332
-package.editor.width=670
-<<<<<<< HEAD
-package.editor.x=166
-package.editor.y=145
-=======
-package.editor.x=219
-package.editor.y=151
->>>>>>> 1fe209b54de7020889192fdc672b737ff85e6970
+package.divider.vertical=0.6771217712177122
+package.editor.height=360
+package.editor.width=674
+package.editor.x=187
+package.editor.y=61
 package.frame.height=600
 package.frame.width=800
-package.numDependencies=1
+package.numDependencies=3
 package.numTargets=4
 package.showExtends=true
 package.showUses=true
