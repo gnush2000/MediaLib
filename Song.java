@@ -54,9 +54,11 @@ public class Song
       this.price = price;
       this.rating = rating;
       totalCost = totalCost + price;
-     
+      numSongs = numSongs + 1;
+      System.out.println(totalCost);
+      System.out.println(numSongs);
     }
-
+  
   public String getSong() {
      return "Title: " + title + ", Price: " + price + ", Rating: " + rating;
     }
