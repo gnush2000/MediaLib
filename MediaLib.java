@@ -10,6 +10,7 @@ public class MediaLib
    public static double totalCost;
    public static int numSongs;
    public static int totalRatings;
+
    public static void main ()
    {
       System.out.println ("Welcome to your Media Library");
@@ -51,6 +52,9 @@ public class MediaLib
       System.out.println("Total cost: " + MediaLib.totalCost);
       System.out.println("Total songs: " + MediaLib.numSongs);
       System.out.println("Total Ratings: " + MediaLib.totalRatings);
+      
+      System.out.println("Average Cost: " + totalCost / numSongs);
+      System.out.println("Average Rating: " + totalRatings / numSongs);
    
    }
   
