@@ -7,6 +7,9 @@
  */
 public class MediaLib
 {
+   public static double totalCost;
+   public static int numSongs;
+   public static int totalRatings;
    public static void main ()
    {
       System.out.println ("Welcome to your Media Library");
@@ -44,7 +47,10 @@ public class MediaLib
       System.out.println(song5.getSong());
       System.out.println(song6.getSong());
       System.out.println(song7.getSong());
-    
+      
+      System.out.println("Total cost: " + MediaLib.totalCost);
+      System.out.println("Total songs: " + MediaLib.numSongs);
+      System.out.println("Total Ratings: " + MediaLib.totalRatings);
    
    }
   

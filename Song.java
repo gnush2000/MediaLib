@@ -12,8 +12,6 @@ public class Song
     private double price;
     private String title;
     private boolean favorite;
-    private double totalCost;
-    private int numSongs;
     /**
      * Constructor for objects of class Song
      */
@@ -24,8 +22,8 @@ public class Song
         title = "";
         price = 0.0;
         favorite = false;
-        totalCost = 0.00;
-        numSongs = 0;
+        MediaLib.totalCost = 0.00;
+        MediaLib.numSongs = 0;
     }
 
   public String getTitle() {
@@ -53,10 +51,9 @@ public class Song
       this.title = title;
       this.price = price;
       this.rating = rating;
-      totalCost = totalCost + price;
-      numSongs = numSongs + 1;
-      System.out.println(totalCost);
-      System.out.println(numSongs);
+      MediaLib.totalCost = MediaLib.totalCost + price;
+      MediaLib.numSongs = MediaLib.numSongs + 1;
+      MediaLib.totalRatings = MediaLib.totalRatings + rating;
     }
   
   public String getSong() {
