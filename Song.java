@@ -12,11 +12,8 @@ public class Song
     private double price;
     private String title;
     private boolean favorite;
-<<<<<<< HEAD
     private int numSongs;
     private double totalCost;
-=======
->>>>>>> 5e3a0c5d5c255792bd95b5542767e03a229dfb62
     /**
      * Constructor for objects of class Song
      */
