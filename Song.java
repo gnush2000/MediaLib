@@ -12,8 +12,8 @@ public class Song
     private double price;
     private String title;
     private boolean favorite;
-    private double totalCost;
     private int numSongs;
+    private double totalCost;
     /**
      * Constructor for objects of class Song
      */
