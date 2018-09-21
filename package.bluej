@@ -8,6 +8,7 @@ dependency2.type=UsesDependency
 dependency3.from=MediaLib
 dependency3.to=Book
 dependency3.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=225
@@ -20,6 +21,38 @@ package.editor.height=360
 package.editor.width=674
 package.editor.x=187
 package.editor.y=61
+=======
+<<<<<<< HEAD
+editor.fx.0.height=1047
+editor.fx.0.width=974
+editor.fx.0.x=-7
+editor.fx.0.y=0
+objectbench.height=155
+=======
+editor.fx.0.height=1018
+editor.fx.0.width=816
+editor.fx.0.x=650
+editor.fx.0.y=6
+objectbench.height=154
+>>>>>>> c95eb50261035f835e973213d1599cc8be00acb8
+objectbench.width=760
+package.divider.horizontal=0.6
+package.divider.vertical=0.678
+package.editor.height=332
+package.editor.width=670
+<<<<<<< HEAD
+package.editor.x=-53
+package.editor.y=146
+=======
+<<<<<<< HEAD
+package.editor.x=104
+package.editor.y=133
+=======
+package.editor.x=182
+package.editor.y=181
+>>>>>>> c95eb50261035f835e973213d1599cc8be00acb8
+>>>>>>> bb46d253c4eb494ebbf1498d4a0e68bde7a98e51
+>>>>>>> ce61a44dda2c05020b24f138805f33eda7fd2489
 package.frame.height=600
 package.frame.width=800
 package.numDependencies=3
@@ -37,8 +70,13 @@ target1.name=Movie
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
-target1.x=210
+<<<<<<< HEAD
+target1.x=220
 target1.y=90
+=======
+target1.x=330
+target1.y=140
+>>>>>>> c95eb50261035f835e973213d1599cc8be00acb8
 target2.height=50
 target2.name=Song
 target2.showInterface=false

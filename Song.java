@@ -11,7 +11,9 @@ public class Song
     private int rating;
     private double price;
     private String title;
-    
+    private boolean favorite;
+    private int numSongs;
+    private double totalCost;
     /**
      * Constructor for objects of class Song
      */
@@ -21,6 +23,9 @@ public class Song
         rating = 0;
         title = "";
         price = 0.0;
+        favorite = false;
+        MediaLib.totalCost = 0.00;
+        MediaLib.numSongs = 0;
     }
 
   public String getTitle() {
@@ -40,5 +45,20 @@ public class Song
     }
   public void setPrice(double p) {
       price = p;
+    }
+  public void addToFavorites() {
+      favorite = true;
+    }
+  public Song(String title, double price, int rating) {
+      this.title = title;
+      this.price = price;
+      this.rating = rating;
+      MediaLib.totalCost = MediaLib.totalCost + price;
+      MediaLib.numSongs = MediaLib.numSongs + 1;
+      MediaLib.totalRatings = MediaLib.totalRatings + rating;
+    }
+  
+  public String getSong() {
+     return "Title: " + title + ", Price: " + price + ", Rating: " + rating;
     }
 }
