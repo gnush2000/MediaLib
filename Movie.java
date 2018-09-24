@@ -28,6 +28,7 @@ public class Movie
         price = 0;
         runtime = "";
         remainder = 0;
+       
     }
     public String getTitle() {
         return title;
@@ -44,7 +45,8 @@ public class Movie
     public int getDuration() {
         remainder = duration % 60;
         hours = duration / 60;
-        return "the runtime is " + hours + ":" + remainder;
+        
+        return "The runtime is " + hours + ":" + remainder;
     }
     public void setDuration(int d) {
         duration = d;
