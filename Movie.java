@@ -41,7 +41,7 @@ public class Movie
     public void setRating(int r) {
         rating = r;
     }
-    public int getDuration() {
+    public String getDuration() {
         remainder = duration % 60;
         hours = duration / 60;
         return "the runtime is " + hours + ":" + remainder;
