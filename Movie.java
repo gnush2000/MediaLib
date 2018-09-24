@@ -34,10 +34,15 @@ public class Movie
     public void setRating(int r) {
         rating = r;
     }
-    public int getduration() {
+    public int getDuration() {
         return duration;
     }
-    
+    public void setDuration(int d) {
+        duration = d;
+    }
+    public Movie(int duration) {
+        this.duration = duration;
+    }
 
     
 }

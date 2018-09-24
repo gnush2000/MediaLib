@@ -55,7 +55,7 @@ public class MediaLib
       
       System.out.println("Average Cost: " + totalCost / numSongs);
       System.out.println("Average Rating: " + totalRatings / numSongs);
-   
+      
    }
    
 }
