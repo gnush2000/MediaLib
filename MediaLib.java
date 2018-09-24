@@ -49,6 +49,9 @@ public class MediaLib
       System.out.println(song6.getSong());
       System.out.println(song7.getSong());
       
+      Movie movie2 = new Movie("grassy", 4.99, 6, 218);
+      System.out.println(movie2.getDuration());
+      
       System.out.println("Total cost: " + MediaLib.totalCost);
       System.out.println("Total songs: " + MediaLib.numSongs);
       System.out.println("Total Ratings: " + MediaLib.totalRatings);

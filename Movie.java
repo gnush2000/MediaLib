@@ -11,6 +11,10 @@ public class Movie
     private int rating;
     private String title;
     private int duration;
+    private double price;
+    private String runtime;
+    private int remainder;
+    private int hours;
 
     /**
      * Constructor for objects of class Movie
@@ -21,6 +25,9 @@ public class Movie
         rating = 0;
         title = "";
         duration = 0;
+        price = 0;
+        runtime = "";
+        remainder = 0;
     }
     public String getTitle() {
         return title;
@@ -35,14 +42,19 @@ public class Movie
         rating = r;
     }
     public int getDuration() {
-        return duration;
+        remainder = duration % 60;
+        hours = duration / 60;
+        return "the runtime is " + hours + ":" + remainder;
     }
     public void setDuration(int d) {
         duration = d;
     }
-    public Movie(int duration) {
-        this.duration = duration;
+    public Movie(String title, double price, int rating, int duration) {
+      this.duration = duration;
+      this.title = title;
+      this.price = price;
+      this.rating = rating;
     }
-
+    
     
 }
