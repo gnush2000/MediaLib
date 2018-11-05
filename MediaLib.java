@@ -62,6 +62,13 @@ public class MediaLib
       System.out.println("Average Cost: " + totalCost / numSongs);
       System.out.println("Average Rating: " + totalRatings / numSongs);
       
+      //Parsing Text
+      
+      MediaFile.writeString(song2.getTitle() + "|" + song2.getRating());
+      MediaFile.saveAndClose();
+      
+      
+      
    }
    
 }
