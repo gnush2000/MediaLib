@@ -56,6 +56,7 @@ public class Song
       MediaLib.totalCost = MediaLib.totalCost + price;
       MediaLib.numSongs = MediaLib.numSongs + 1;
       MediaLib.totalRatings = MediaLib.totalRatings + rating;
+      MediaFile.writeString(title + "|" + rating);
     }
   
   public String getSong() {

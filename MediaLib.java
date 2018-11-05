@@ -64,7 +64,6 @@ public class MediaLib
       
       //Parsing Text
       
-      MediaFile.writeString(song2.getTitle() + "|" + song2.getRating());
       MediaFile.saveAndClose();
       
       
