@@ -63,6 +63,8 @@ public class MediaLib
       System.out.println("Average Rating: " + totalRatings / numSongs);
       
       //Parsing Text
+      LoopingMediaLib loop = new LoopingMediaLib();
+      loop.main();
       
       MediaFile.saveAndClose();
       
