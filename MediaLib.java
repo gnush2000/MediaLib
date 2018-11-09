@@ -59,7 +59,7 @@ public class MediaLib
       LoopingMediaLib loop = new LoopingMediaLib();
       loop.main();
       
-      
+      System.out.println(MediaFile.readString());
       MediaFile.saveAndClose();
       
       

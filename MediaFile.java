@@ -68,8 +68,8 @@ public class MediaFile
         }
 
         try {
-            out.write(s);
-            out.newLine();
+            //out.write(s);
+            out.write("|");
         }
         catch (Exception e) {
             System.err.println("Cannot write file!");
