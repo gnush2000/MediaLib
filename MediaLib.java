@@ -14,14 +14,6 @@ public class MediaLib
    public static void main ()
    {
       System.out.println ("Welcome to your Media Library");
-      Song song1 = new Song();
-      System.out.println(song1);
-      song1.setTitle("Raise Your Glass");
-      System.out.println(song1.getTitle());
-      song1.setRating(3);
-      System.out.println(song1.getRating());
-      song1.setPrice(1.29);
-      System.out.println("$" + song1.getPrice());
       Movie movie1 = new Movie();
       System.out.println(movie1);
       movie1.setTitle("Titanic");
@@ -39,6 +31,7 @@ public class MediaLib
       book1.setRating(6);
       System.out.println(book1.getRating());
       
+      Song song1 = new Song("Raise Your Glass", 1.29, 3);
       Song song2 = new Song("Cocaine Jesus", 0.99, 8);
       Song song3 = new Song("Moon", 1.29, 1);
       Song song4 = new Song("Big Green Tractor", 0.99, 2);
@@ -66,10 +59,10 @@ public class MediaLib
       LoopingMediaLib loop = new LoopingMediaLib();
       loop.main();
       
+      
       MediaFile.saveAndClose();
       
       
       
    }
-   
 }
