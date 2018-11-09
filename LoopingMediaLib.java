@@ -2,10 +2,16 @@ public class LoopingMediaLib
 {
     public static void main()
     {
-        System.out.println(MediaFile.readString());
+       String
+        
         for(int i = MediaLib.numSongs; i > 0; i--)
         {
-            System.out.println(("song" + i).getSong());
+           System.out.println(MediaFile.readString());
         }
+       while (songInfo!= null)
+       {
+           System.out.println(MediaFile.readString());
+       }
+       
     }
 }

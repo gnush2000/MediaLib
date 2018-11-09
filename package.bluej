@@ -5,55 +5,43 @@ dependency1.type=UsesDependency
 dependency2.from=Song
 dependency2.to=MediaFile
 dependency2.type=UsesDependency
-dependency3.from=LoopingMediaLib
-dependency3.to=MediaFile
+dependency3.from=MediaLib
+dependency3.to=Song
 dependency3.type=UsesDependency
 dependency4.from=MediaLib
-dependency4.to=Song
+dependency4.to=Movie
 dependency4.type=UsesDependency
 dependency5.from=MediaLib
-<<<<<<< HEAD
-dependency5.to=MediaFile
-dependency5.type=UsesDependency
-editor.fx.0.height=973
-editor.fx.0.width=816
-editor.fx.0.x=143
-editor.fx.0.y=25
-=======
-dependency5.to=Movie
+dependency5.to=Book
 dependency5.type=UsesDependency
 dependency6.from=MediaLib
-dependency6.to=Book
+dependency6.to=LoopingMediaLib
 dependency6.type=UsesDependency
 dependency7.from=MediaLib
 dependency7.to=MediaFile
 dependency7.type=UsesDependency
-editor.fx.0.height=973
+dependency8.from=LoopingMediaLib
+dependency8.to=MediaLib
+dependency8.type=UsesDependency
+dependency9.from=LoopingMediaLib
+dependency9.to=MediaFile
+dependency9.type=UsesDependency
+editor.fx.0.height=978
 editor.fx.0.width=816
-editor.fx.0.x=910
-editor.fx.0.y=54
->>>>>>> 5cbc852fed63de5ecf60b2da56fae82af7d4593a
-objectbench.height=155
+editor.fx.0.x=310
+editor.fx.0.y=47
+objectbench.height=156
 objectbench.width=760
 package.divider.horizontal=0.6
-package.divider.vertical=0.676
-package.editor.height=331
+package.divider.vertical=0.674
+package.editor.height=330
 package.editor.width=670
-<<<<<<< HEAD
-package.editor.x=25
-package.editor.y=123
+package.editor.x=48
+package.editor.y=124
 package.frame.height=600
 package.frame.width=800
-package.numDependencies=5
-package.numTargets=5
-=======
-package.editor.x=688
-package.editor.y=172
-package.frame.height=600
-package.frame.width=800
-package.numDependencies=7
+package.numDependencies=9
 package.numTargets=6
->>>>>>> 5cbc852fed63de5ecf60b2da56fae82af7d4593a
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -67,25 +55,15 @@ target1.name=MediaFile
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
-<<<<<<< HEAD
 target1.x=480
 target1.y=40
-=======
-target1.x=510
-target1.y=60
->>>>>>> 5cbc852fed63de5ecf60b2da56fae82af7d4593a
 target2.height=50
 target2.name=Movie
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
-<<<<<<< HEAD
 target2.x=330
 target2.y=140
-=======
-target2.x=310
-target2.y=110
->>>>>>> 5cbc852fed63de5ecf60b2da56fae82af7d4593a
 target3.height=50
 target3.name=Song
 target3.showInterface=false
@@ -107,13 +85,10 @@ target5.type=ClassTarget
 target5.width=80
 target5.x=70
 target5.y=10
-<<<<<<< HEAD
-=======
 target6.height=50
 target6.name=LoopingMediaLib
 target6.showInterface=false
 target6.type=ClassTarget
 target6.width=130
-target6.x=450
-target6.y=140
->>>>>>> 5cbc852fed63de5ecf60b2da56fae82af7d4593a
+target6.x=510
+target6.y=230
