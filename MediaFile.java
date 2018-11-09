@@ -68,11 +68,8 @@ public class MediaFile
         }
 
         try {
-<<<<<<< HEAD
+
             //out.write(s);
-=======
-            out.write(s);
->>>>>>> e999e8432a973fcb43ff0425873323f36eb9ca57
             out.write("|");
         }
         catch (Exception e) {
