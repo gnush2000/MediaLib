@@ -27,17 +27,29 @@ dependency9.from=LoopingMediaLib
 dependency9.to=MediaFile
 dependency9.type=UsesDependency
 editor.fx.0.height=972
+<<<<<<< HEAD
 editor.fx.0.width=914
 editor.fx.0.x=91
 editor.fx.0.y=24
 objectbench.height=156
+=======
+editor.fx.0.width=745
+editor.fx.0.x=427
+editor.fx.0.y=11
+objectbench.height=155
+>>>>>>> 9dba0848f4992eb3c8dcf7576cf51c7145cdd35c
 objectbench.width=760
 package.divider.horizontal=0.6
-package.divider.vertical=0.674
-package.editor.height=330
+package.divider.vertical=0.676
+package.editor.height=331
 package.editor.width=670
+<<<<<<< HEAD
 package.editor.x=201
 package.editor.y=114
+=======
+package.editor.x=451
+package.editor.y=119
+>>>>>>> 9dba0848f4992eb3c8dcf7576cf51c7145cdd35c
 package.frame.height=600
 package.frame.width=800
 package.numDependencies=9
@@ -55,36 +67,51 @@ target1.name=MediaFile
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
+<<<<<<< HEAD
 target1.x=510
 target1.y=60
+=======
+target1.x=220
+target1.y=40
+>>>>>>> 9dba0848f4992eb3c8dcf7576cf51c7145cdd35c
 target2.height=50
 target2.name=Movie
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
+<<<<<<< HEAD
 target2.x=310
 target2.y=110
+=======
+target2.x=120
+target2.y=260
+>>>>>>> 9dba0848f4992eb3c8dcf7576cf51c7145cdd35c
 target3.height=50
 target3.name=Song
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=80
-target3.x=330
-target3.y=20
+target3.x=140
+target3.y=130
 target4.height=50
 target4.name=Book
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=80
-target4.x=220
-target4.y=170
+target4.x=130
+target4.y=200
 target5.height=50
 target5.name=FavoriteMediaLib
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=130
+<<<<<<< HEAD
 target5.x=310
 target5.y=240
+=======
+target5.x=260
+target5.y=190
+>>>>>>> 9dba0848f4992eb3c8dcf7576cf51c7145cdd35c
 target6.height=50
 target6.name=MediaLib
 target6.showInterface=false
@@ -97,5 +124,10 @@ target7.name=LoopingMediaLib
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=130
+<<<<<<< HEAD
 target7.x=420
 target7.y=160
+=======
+target7.x=270
+target7.y=90
+>>>>>>> 9dba0848f4992eb3c8dcf7576cf51c7145cdd35c
