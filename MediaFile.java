@@ -68,8 +68,7 @@ public class MediaFile
         }
 
         try {
-
-            //out.write(s);
+            out.write(s);
             out.write("|");
         }
         catch (Exception e) {
