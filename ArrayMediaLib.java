@@ -38,6 +38,16 @@ public class ArrayMediaLib
    {
        System.out.println(s.getTitle());
    }
-                                            
+   // change the array
+   System.out.println("-BEFORE--");
+   for (Song changeSong : topTenSongs) {
+       changeSong.setTitle("test");
+    }
+    // show the array
+    System.out.println("-AFTER--");
+   for (Song showSong : topTenSongs) {
+       System.out.println(showSong.getTitle());
+   }
+   
 }
 }
