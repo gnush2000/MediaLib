@@ -8,15 +8,12 @@
 public class ArrayMediaLib
 {
    public static void main() {
-
    String [] sharingFriends = {"Anne", "Beth", "Edward", "John", "Sophia", "Smudge"};
-       for (int i = sharingFriends.length; i>0; i--)
-       {
-           System.out.println(sharingFriends[i]);
-        }
-    }
-
-       
+   for (int i = 0; i < sharingFriends.length; i++)
+   {
+       System.out.println(sharingFriends[i]);
+   }
+   }
 }
 
 
