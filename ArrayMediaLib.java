@@ -22,5 +22,22 @@ public class ArrayMediaLib
    }
    System.out.println(total + " days");
    System.out.println(total / daysBtwnPurchase.length + " avarage days");
+   
+   //Songs
+    Song [] topTenSongs = {new Song("The Twist"),
+                          new Song("Smooth"),
+                          new Song("Mack The Knife"),
+                          new Song("How Do I Live"),
+                          new Song("Party Rock Anthem"),
+                          new Song("I Gotta Feeling"),
+                          new Song("Macarena (Bayside Boys Mix)"),
+                          new Song("Physical"),
+                          new Song("You Light Up My Life"),
+                          new Song("Hey Jude")};
+   for (Song s: topTenSongs)
+   {
+       System.out.println(s.getTitle());
+   }
+                                            
 }
 }

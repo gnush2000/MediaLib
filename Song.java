@@ -49,7 +49,7 @@ public class Song
   public void addToFavorites() {
       favorite = true;
     }
-  public Song(String title, double price, int rating) {
+  public Song(String title,double price, int rating) {
       this.title = title;
       this.price = price;
       this.rating = rating;
@@ -57,6 +57,10 @@ public class Song
       MediaLib.numSongs = MediaLib.numSongs + 1;
       MediaLib.totalRatings = MediaLib.totalRatings + rating;
       MediaFile.writeString(title + "|" + rating);
+    }
+   public Song(String t) {
+       title = t;
+       
     }
   
   public String getSong() {
