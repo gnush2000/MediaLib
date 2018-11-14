@@ -34,6 +34,8 @@ public class ArrayMediaLib
                           new Song("Physical"),
                           new Song("You Light Up My Life"),
                           new Song("Hey Jude")};
+                          
+   
    for (Song s: topTenSongs)
    {
        System.out.println(s.getTitle());
@@ -41,14 +43,16 @@ public class ArrayMediaLib
    // change the array
    System.out.println("-BEFORE--");
    for (Song changeSong : topTenSongs) {
-       changeSong = new Song("test");
-       System.out.println(changeSong.getTitle());
+       //changeSong.setTitle("test");
+       //changeSong = new Song("test");
+       //System.out.println(changeSong.getTitle());
     }
     // show the array
     System.out.println("-AFTER--");
    for (Song showSong : topTenSongs) {
        System.out.println(showSong.getTitle());
+       
    }
-   
+  
 }
 }
