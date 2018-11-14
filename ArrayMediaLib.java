@@ -45,6 +45,8 @@ public class ArrayMediaLib
        //changeSong.setTitle("test");
        //changeSong = new Song("test");
        //System.out.println(changeSong.getTitle());
+       changeSong.setPrice(1.29);
+       System.out.println(changeSong.getPrice());
     }
     // show the array
     System.out.println("-AFTER--");
