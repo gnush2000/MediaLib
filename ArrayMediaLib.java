@@ -34,6 +34,8 @@ public class ArrayMediaLib
                           new Song("Physical"),
                           new Song("You Light Up My Life"),
                           new Song("Hey Jude")};
+                          
+   Song [] topTenSongs2 = topTenSongs;
    for (Song s: topTenSongs)
    {
        System.out.println(s.getTitle());
@@ -49,6 +51,5 @@ public class ArrayMediaLib
    for (Song showSong : topTenSongs) {
        System.out.println(showSong.getTitle());
    }
-   
 }
 }
